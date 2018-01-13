@@ -27,7 +27,7 @@ namespace TestApp
             });
 
             QuantumRandomNumberGenerator qrng = new QuantumRandomNumberGenerator();
-            var random_number = qrng.GenerateNumber(program, "ee1f326ebe08797c1363e3e00a537b6e");
+            var random_number = qrng.GenerateNumber(program, "identiciator-of-history-item");
 
             if (random_number != null)
             {
